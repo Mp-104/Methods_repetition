@@ -8,13 +8,20 @@ public class Main {
         //      to object,
         //      to within main)
 
+        // Object creation AKA Instantiation , skapande av object
+        Student student1 = new Student();
+        Student student2 = new Student();
 
-        // Split up methods
-        // Argument/Params
-        // keywords ? methods (static, this)
-        // Methods that repeat until: "yes" / "no"
-        // Restart program if done () (question YES NO also)
+        //student1.name;
+        //student2.name;
 
+        // Set object values
+        student1.name = "benny";
+        student2.name = "frida";
+
+        System.out.println(student1.name = "benny");
+        System.out.println(student2.name);
+        System.out.println(student1.name);
 
     }
 
