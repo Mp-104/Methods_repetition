@@ -9,4 +9,23 @@ public class Student {
 
     // Methods, TODO Create methods
 
+    public Student(int age, String name, boolean isTired) {
+        this.age = age;
+        this.name = name;
+        this.isTired = isTired;
+    }
+
+    // methods
+    public String showIfSleepy () {
+
+        if (isTired == true) {
+            return name + " is very tired";
+
+        } else {
+            return name + " is NOT tired";
+
+        }
+
+    }
+
 }
